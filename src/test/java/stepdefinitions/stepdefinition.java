@@ -47,6 +47,13 @@ public class stepdefinition {
 
 		result = given().spec(result).body(Mainclass2.buildingrequestpayload(Name, Language, Address,
 				Phonenumber, Accuracy, Website, Latitude, Longitude, type));
+		System.out.println("Gitone");
+		System.out.println("Gittwo");
+		System.out.println("Gitthree");
+		System.out.println("Gitfour");
+		System.out.println("Gitfive");
+		System.out.println("Gitsix");
+		System.out.println("Gitseven");
 		
 
 	}
@@ -54,6 +61,7 @@ public class stepdefinition {
 	@When("triggering the Http {string} method for {string} with resources attached")
 	public void triggering_the_http_post_method_for_addplace_api_with_resources_attached(String method,
 			String resource) {
+		System.out.println("new");
 		// constructor will be called with the value of resource which you pass
 		apiresources addplaceap = apiresources.valueOf(resource);
 		addplaceap.getresource();

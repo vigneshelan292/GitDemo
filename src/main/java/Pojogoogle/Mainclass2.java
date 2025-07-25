@@ -33,7 +33,9 @@ public class Mainclass2 {
 		List<String> list=new ArrayList<String>();
 		list.addAll(type);
 		place.setTypes(list);
+		System.out.println("testnew");
 		return place;
+		
 		
 	}
 		

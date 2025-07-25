@@ -72,7 +72,11 @@ public class stepdefinition {
          }
 		else if(method.equalsIgnoreCase("DELETE")){
 			res=result.log().body().when().delete(addplaceap.getresource());//This logs the body just before sending the POST request.
-			
+			System.out.println("brach");
+			System.out.println("brach");
+			System.out.println("brach");
+			System.out.println("brach");
+			System.out.println("brach");
 		}
 	}
 

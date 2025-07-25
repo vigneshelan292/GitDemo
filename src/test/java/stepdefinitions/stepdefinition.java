@@ -135,5 +135,10 @@ public class stepdefinition {
 		
 		
 	}
+	
+	public void getmethod() {
+		
+		System.out.println("newtest");
+	}
 
 }

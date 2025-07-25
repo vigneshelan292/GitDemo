@@ -47,6 +47,9 @@ public class stepdefinition {
 
 		result = given().spec(result).body(Mainclass2.buildingrequestpayload(Name, Language, Address,
 				Phonenumber, Accuracy, Website, Latitude, Longitude, type));
+		System.out.println("Gitone");
+		System.out.println("Gittwo");
+		System.out.println("Gitthree");
 		
 
 	}
